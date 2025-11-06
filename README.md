@@ -1,4 +1,4 @@
-<h4 align="left">👋 Hey! My name is Manav and I'm a computer science major from Vancouver, BC!</h4>
+<h4 align="left">👋 Hey, I'm Manav — a full-stack developer from Vancouver who loves turning complex ideas into clean, usable software. When I'm not coding, you'll probably find me climbing, gaming, or curating a new playlist!</h4>
 
 ###
 
