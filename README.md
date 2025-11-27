@@ -291,6 +291,10 @@ mindmap
 <img src="https://skillicons.dev/icons?i=prisma" width="48" height="48" alt="Prisma" />
 <br><span style="color: white;">Prisma</span>
 </td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Prisma" />
+<br><span style="color: white;">Supabase</span>
+</td>
 </tr>
 </table>
 
