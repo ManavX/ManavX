@@ -59,7 +59,7 @@ recent_work:
 ### 💬 Ask Me About
 
 <p>
-<img src="https://img.shields.io/badge/AI%2FML-Expert-FF6B35?style=flat-square" />
+<img src="https://img.shields.io/badge/AI%2FML-Intermediate-FF6B35?style=flat-square" />
 <img src="https://img.shields.io/badge/DevOps-Advanced-FF5722?style=flat-square" />
 <img src="https://img.shields.io/badge/Full%20Stack-Expert-FF4500?style=flat-square" />
 <img src="https://img.shields.io/badge/Python-Expert-orange?style=flat-square" />
