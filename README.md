@@ -416,7 +416,7 @@ mindmap
 
 ### 📊 Profile Analytics
 
-![Profile Views](https://komarev.com/ghpvc/?username=ManavX&label=Profile%20Views&color=orangered&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=ManavX&label=Profile%20Views&color=orange&style=for-the-badge)
 ![GitHub Followers](https://img.shields.io/github/followers/ManavX?label=Followers&style=for-the-badge&color=FF5722)
 ![GitHub Stars](https://img.shields.io/github/stars/ManavX?label=Total%20Stars&style=for-the-badge&color=FF6B35)
 
