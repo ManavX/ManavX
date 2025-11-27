@@ -380,28 +380,24 @@ mindmap
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <br/>
-<b>Professional Networking</b>
 </td>
 <td align="center" width="25%">
 <a href="https://manav.world">
 <img src="https://img.shields.io/badge/Portfolio-Visit-FF6B35?style=for-the-badge&logo=google-chrome&logoColor=white" />
 </a>
 <br/>
-<b>View My Work</b>
 </td>
 <td align="center" width="25%">
 <a href="mailto:manavxa@gmail.com">
 <img src="https://img.shields.io/badge/Email-Contact-FF5722?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <br/>
-<b>Send a Message</b>
 </td>
 <td align="center" width="25%">
 <a href="tel:+16049672772">
-<img src="https://img.shields.io/badge/Phone-Call-FF4500?style=for-the-badge&logo=phone&logoColor=white" />
+<img src="https://img.shields.io/badge/Phone-+1 604 967 2772-FF4500?style=for-the-badge&logo=phone&logoColor=white" />
 </a>
 <br/>
-<b>+1 604 967 2772</b>
 </td>
 </tr>
 </table>
