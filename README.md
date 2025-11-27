@@ -151,8 +151,6 @@ mindmap
 <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
 <br><span style="color: white;">CSS</span>
 </td>
-</tr>
-<tr>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
 <br><span style="color: white;">C++</span>
