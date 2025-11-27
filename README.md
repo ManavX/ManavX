@@ -53,7 +53,7 @@ recent_work:
 ### 📫 Let's Connect!
 
 [![Email](https://img.shields.io/badge/Email-manavxa%40gmail.com-FF5722?style=flat-square&logo=gmail&logoColor=white)](mailto:manavxa@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manav%20Acharya-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/manav-acharya)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manav%20Acharya-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manav-acharya-0594131b1/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-manav.world-FF6B35?style=flat-square&logo=google-chrome&logoColor=white)](https://manav.world)
 [![Phone](https://img.shields.io/badge/Phone-+1%20604%20967%202772-FF4500?style=flat-square&logo=phone&logoColor=white)](tel:+16049672772)
 
@@ -381,7 +381,7 @@ mindmap
 <table>
 <tr>
 <td align="center" width="25%">
-<a href="https://linkedin.com/in/manav-acharya">
+<a href="https://www.linkedin.com/in/manav-acharya-0594131b1/">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <br/>
