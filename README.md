@@ -89,7 +89,7 @@ mindmap
       Python ⭐⭐⭐⭐⭐
       Java ⭐⭐⭐⭐
       C# ⭐⭐⭐
-      SQL ⭐⭐⭐⭐
+      C++ ⭐⭐⭐⭐
     AI/ML & Data Science
       LangChain
       Prefect
@@ -154,16 +154,8 @@ mindmap
 </tr>
 <tr>
 <td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="SQL" />
-<br><span style="color: white;">SQL</span>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP" />
-<br><span style="color: white;">PHP</span>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="RISC-V" />
-<br><span style="color: white;">RISC-V</span>
+<img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
+<br><span style="color: white;">C++</span>
 </td>
 </tr>
 </table>
@@ -230,10 +222,6 @@ mindmap
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt=".NET" />
 <br><span style="color: white;">.NET</span>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=prisma" width="48" height="48" alt="Prisma" />
-<br><span style="color: white;">Prisma</span>
 </td>
 </tr>
 </table>
@@ -311,6 +299,10 @@ mindmap
 <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
 <br><span style="color: white;">PostgreSQL</span>
 </td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=prisma" width="48" height="48" alt="Prisma" />
+<br><span style="color: white;">Prisma</span>
+</td>
 </tr>
 </table>
 
@@ -322,12 +314,12 @@ mindmap
 <tr>
 <td width="50%">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ManavX&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&title_color=FF5722&icon_color=FF6B35&text_color=ffffff&bg_color=0d1117" alt="Manav's GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=ManavX&show_icons=true&theme=radical&hide_border=true&title_color=FF5722&icon_color=FF6B35" alt="Manav's GitHub Stats" />
 
 </td>
 <td width="50%">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ManavX&theme=radical&hide_border=true&ring=FF5722&fire=FF6B35&currStreakLabel=FF5722" alt="Manav's GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ManavX&theme=radical&hide_border=true" alt="Manav's GitHub Streak" />
 
 </td>
 </tr>
