@@ -188,7 +188,7 @@ mindmap
 <br><span style="color: white;">NumPy</span>
 </td>
 <td align="center" width="96">
-<img src="https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/brand/wordmark.png" width="48" height="48" alt="LangChain" />
+<img src="https://avatars.githubusercontent.com/u/126733545?s=48&v=4" width="48" height="48" alt="LangChain" />
 <br><span style="color: white;">LangChain</span>
 </td>
 <td align="center" width="96">
