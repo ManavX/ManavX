@@ -231,10 +231,6 @@ mindmap
 <table>
 <tr>
 <td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
-<br><span style="color: white;">Linux</span>
-</td>
-<td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
 <br><span style="color: white;">Git</span>
 </td>
@@ -267,10 +263,6 @@ mindmap
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub Actions" />
 <br><span style="color: white;">GitHub Actions</span>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure" />
-<br><span style="color: white;">Azure</span>
 </td>
 </tr>
 </table>
