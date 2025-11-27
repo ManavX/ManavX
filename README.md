@@ -6,13 +6,6 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF5722&center=true&vCenter=true&multiline=false&width=600&height=60&lines=Software+Developer+💻;AI/ML+Engineer+🤖;DevOps+Engineer+⚙️;Full-Stack+Creator+🚀" alt="Typing SVG" />
 
-<p align="center">
-  <a href="https://linkedin.com/in/manav-acharya"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://manav.world"><img src="https://img.shields.io/badge/Portfolio-FF6B35?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
-  <a href="mailto:manavxa@gmail.com"><img src="https://img.shields.io/badge/Email-FF5722?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="tel:+16049672772"><img src="https://img.shields.io/badge/Phone-FF4500?style=for-the-badge&logo=phone&logoColor=white" alt="Phone"/></a>
-  <img src="https://komarev.com/ghpvc/?username=ManavX&label=Profile%20Views&color=orangered&style=for-the-badge" alt="Profile views" />
-</p>
 
 </div>
 
