@@ -303,6 +303,10 @@ mindmap
 <img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Prisma" />
 <br><span style="color: white;">Supabase</span>
 </td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=graphql" width="48" height="48" alt="Prisma" />
+<br><span style="color: white;">GraphQL</span>
+</td>
 </tr>
 </table>
 
