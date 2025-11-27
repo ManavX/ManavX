@@ -82,7 +82,10 @@ recent_work:
 <div align="center">
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor':'#FF5722', 'primaryTextColor':'#fff', 'primaryBorderColor':'#FF6B35', 'lineColor':'#FF8C00', 'secondaryColor':'#0d1117', 'tertiaryColor':'#161b22', 'fontSize':'16px'}}}%%
+%%{init: {'theme':'base
+          +  ', 'themeVariables': { 'primaryColor':'#FF5722', 'primaryTextColor':'#fff', 'primaryBorderColor':'#FF6B35',
+          +  'lineColor':'#FF8C00', 'secondaryColor':'#FF6B35', 'tertiaryColor':'#FF8C00', 'mainBkg':'#FF5722', 'secondBkg':'#
+          +  FF6B35', 'tertiaryBkg':'#FF8C00', 'darkMode':'true', 'fontSize':'16px'}}}%%
 mindmap
   root((Manav's<br/>Tech Stack))
     Languages
@@ -329,7 +332,7 @@ mindmap
 </td>
 <td width="50%">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ManavX&theme=radical&hide_border=true&title_color=FF5722&icon_color=FF6B35" alt="Manav's GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=manavx&theme=tokyonight&hide_border=true" alt="Manav's GitHub Streak" />
 
 </td>
 </tr>
