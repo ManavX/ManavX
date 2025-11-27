@@ -67,9 +67,11 @@ recent_work:
 <img src="https://img.shields.io/badge/TypeScript-Advanced-darkorange?style=flat-square" />
 </p>
 
-### 🎵 Recently Played on Spotify
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=12167639251&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=ff5722&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=12167639251&redirect=true)
+<div align="center">
+  <a href="https://open.spotify.com/user/12167639251">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=12167639251&count=5&unique=true" alt="Spotify recently played"  />
+  </a>
+</div>
 
 </td>
 </tr>
