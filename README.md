@@ -148,10 +148,6 @@ mindmap
 <br><span style="color: white;">HTML</span>
 </td>
 <td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
-<br><span style="color: white;">CSS</span>
-</td>
-<td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
 <br><span style="color: white;">C++</span>
 </td>
@@ -220,6 +216,10 @@ mindmap
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt=".NET" />
 <br><span style="color: white;">.NET</span>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt=".NET" />
+<br><span style="color: white;">Express</span>
 </td>
 </tr>
 </table>
