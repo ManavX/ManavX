@@ -196,8 +196,8 @@ mindmap
 <br><span style="color: white;">Elastic</span>
 </td>
 <td align="center" width="96">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="48" height="48" alt="Elastic" />
-<br><span style="color: white;">Matplotlib</span>
+<img src="https://avatars.githubusercontent.com/u/39270919?s=200&v=4" width="48" height="48" alt="Elastic" />
+<br><span style="color: white;">Prefect</span>
 </td>
 </tr>
 </table>
