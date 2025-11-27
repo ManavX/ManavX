@@ -252,8 +252,6 @@ mindmap
 <img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel" />
 <br><span style="color: white;">Vercel</span>
 </td>
-</tr>
-<tr>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=terraform" width="48" height="48" alt="Terraform" />
 <br><span style="color: white;">Terraform</span>
