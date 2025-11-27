@@ -190,6 +190,10 @@ mindmap
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="48" height="48" alt="Elastic" />
 <br><span style="color: white;">Elastic</span>
 </td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=matplotlib" width="48" height="48" alt="Elastic" />
+<br><span style="color: white;">Matplotlib</span>
+</td>
 </tr>
 </table>
 
