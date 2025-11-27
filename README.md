@@ -424,6 +424,6 @@ mindmap
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/ManavX/ManavX/main/footer.gif" width="100%"/>
 
 </div>
