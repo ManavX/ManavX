@@ -41,7 +41,8 @@ recent_work:
 ### 🎮 Hobbies & Interests
 
 - ♟️ **Chess** - Strategic thinking & problem solving
-- 🎮 **Gaming** - Multiplayer IO games & competitive play
+- 🎮 **Gaming** - Autobattlers and strategic multiplayer
+  games
 - 💪 **Fitness** - Calisthenics & strength training
 - 🎵 **Music** - Playlist curation & discovery
 - 🧗 **Bouldering** - Climbing & outdoor adventures
