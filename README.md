@@ -191,7 +191,7 @@ mindmap
 <br><span style="color: white;">Elastic</span>
 </td>
 <td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=matplotlib" width="48" height="48" alt="Elastic" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="48" height="48" alt="Elastic" />
 <br><span style="color: white;">Matplotlib</span>
 </td>
 </tr>
