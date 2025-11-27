@@ -223,8 +223,8 @@ mindmap
 <br><span style="color: white;">Angular</span>
 </td>
 <td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jQuery" />
-<br><span style="color: white;">jQuery</span>
+<img src="https://skillicons.dev/icons?i=flask" width="48" height="48" alt="jQuery" />
+<br><span style="color: white;">Flask</span>
 </td>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt=".NET" />
