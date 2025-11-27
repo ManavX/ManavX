@@ -24,7 +24,7 @@
 <tr>
 <td width="50%">
 
-I'm a passionate **Computing Science** graduate from Simon Fraser University (Dean's Honour Roll, GPA: 3.83/4) currently focusing on **MCP (Model Context Protocol)**, **MLOps**, and **agentic AI solutions**.
+I'm a passionate recent **Computer Science** graduate from **Simon Fraser University** currently focusing on **MCP (Model Context Protocol)**, **MLOps**, and **agentic AI solutions**.
 
 ### 🎯 Quick Facts
 
