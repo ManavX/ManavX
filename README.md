@@ -329,7 +329,7 @@ mindmap
 </td>
 <td width="50%">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ManavX&theme=radical&hide_border=true" alt="Manav's GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ManavX&theme=radical&hide_border=true&title_color=FF5722&icon_color=FF6B35" alt="Manav's GitHub Streak" />
 
 </td>
 </tr>
