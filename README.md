@@ -2,9 +2,9 @@
 
 # Hi there, I'm Manav Acharya! 👋
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4&height=180&section=header&text=Manav%20Acharya&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Developer%20%7C%20AI/ML%20Engineer%20%7C%20DevOps%20Engineer&descAlignY=51&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4&height=180&section=header&text=Manav%20Acharya&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Developer%20%7C%20AI/ML%20Engineer&descAlignY=51&descAlign=50" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF5722&center=true&vCenter=true&multiline=false&width=600&height=60&lines=Software+Developer+💻;AI/ML+Engineer+🤖;DevOps+Engineer+⚙️;Full-Stack+Creator+🚀" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF5722&center=true&vCenter=true&multiline=false&width=600&height=60&lines=Software+Developer+💻;AI/ML+Engineer+🤖;Full-Stack+Creator+🚀" alt="Typing SVG" />
 
 
 </div>
@@ -29,7 +29,7 @@ current_focus:
 
 expertise:
   - Full-stack development (React, Next.js, Node.js)
-  - DevOps & cloud infrastructure (AWS, GCP, K8s)
+  - Cloud infrastructure (AWS, GCP, K8s)
   - AI/ML automation & workflow orchestration
 
 recent_work:
@@ -61,7 +61,6 @@ recent_work:
 
 <p>
 <img src="https://img.shields.io/badge/AI%2FML-Intermediate-FF6B35?style=flat-square" />
-<img src="https://img.shields.io/badge/DevOps-Advanced-FF5722?style=flat-square" />
 <img src="https://img.shields.io/badge/Full%20Stack-Expert-FF4500?style=flat-square" />
 <img src="https://img.shields.io/badge/Python-Expert-orange?style=flat-square" />
 <img src="https://img.shields.io/badge/TypeScript-Advanced-darkorange?style=flat-square" />
