@@ -28,7 +28,7 @@ current_focus:
   - Agentic AI solutions & RAG pipelines
 
 expertise:
-  - Full-stack development (React, Next.js, Node.js)
+  - Full-stack development (React, Next.js, Python)
   - Cloud infrastructure (AWS, GCP, K8s)
   - AI/ML automation & workflow orchestration
 
