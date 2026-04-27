@@ -63,6 +63,7 @@ recent_work:
 <img src="https://img.shields.io/badge/AI%2FML-Intermediate-FF6B35?style=flat-square" />
 <img src="https://img.shields.io/badge/Full%20Stack-Expert-FF4500?style=flat-square" />
 <img src="https://img.shields.io/badge/Python-Expert-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/JavaScript-Advanced-darkorange?style=flat-square" />
 <img src="https://img.shields.io/badge/TypeScript-Advanced-darkorange?style=flat-square" />
 </p>
 
