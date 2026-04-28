@@ -69,7 +69,7 @@ recent_work:
 
 <div align="center">
   <a href="https://open.spotify.com/user/12167639251">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=12167639251&count=5&unique=true" alt="Spotify recently played"  />
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=12167639251&unique={true|1|on|yes}" alt="Spotify recently played"  />
   </a>
 </div>
 
