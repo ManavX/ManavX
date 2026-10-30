@@ -16,7 +16,7 @@ export const W = 640
 export const H = 360
 
 export type Track = { title: string; artists: string; cover: string | null }
-export type CabinProps = { tracks: Track[]; music?: 'recent' | 'top' | null }
+export type CabinProps = { tracks: Track[] | null; music?: 'recent' | 'top' | null }
 
 const P = {
   space: '#04050a',
@@ -1045,10 +1045,14 @@ function useCovers(tracks: Track[]) {
   return covers
 }
 
-export function Cabin({ tracks, music }: CabinProps) {
+// Shared, so the covers effect doesn't re-run every render when Spotify is off the air
+const NO_TRACKS: Track[] = []
+
+export function Cabin({ tracks: live, music }: CabinProps) {
   const { width, height } = useVideoConfig()
   const { u, theta } = useLoop()
   const canvas = useRef<HTMLCanvasElement>(null)
+  const tracks = live ?? NO_TRACKS
   const covers = useCovers(tracks)
   const shown = tracks.slice(0, 5).map((t) => ({ ...t, title: pixelText(t.title), artists: pixelText(t.artists) }))
 
