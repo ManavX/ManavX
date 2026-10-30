@@ -1,0 +1,47 @@
+{
+  "name": "universe",
+  "version": "1.0.0",
+  "description": "Animated README images for github.com/ManavX: SVG panels and Remotion GIFs in manav.world's style",
+  "repository": {},
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "@remotion/three": "4.0.539",
+    "postprocessing": "^6.39.5",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.539",
+    "three": "^0.183.2"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.539",
+    "@types/react": "19.2.7",
+    "@types/three": "^0.183.1",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "gifski": "^1.7.1",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "data": "node scripts/fetch-data.mjs",
+    "live": "node scripts/fetch-live.mjs",
+    "panels": "node panels/build.mts",
+    "render": "node scripts/render.mjs",
+    "site": "node scripts/assemble.mjs",
+    "check:loops": "node scripts/check-loop.mjs ../assets/hero.mp4 ../assets/cabin.mp4 ../assets/flyby.mp4",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

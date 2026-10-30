@@ -1,0 +1,124 @@
+# Redraws the profile README's images every hour and publishes them to GitHub Pages
+# (https://manavx.github.io/ManavX/). Pages replaces the whole site on each deploy, so hourly
+# updates never become commits.
+#
+# Every hour: fetch the contribution year, latest push and recently played tracks, then draw the
+# SVG panels (plain Node, a few seconds). GIFs are rendered with Remotion only when what they show
+# changed: the Year Orbit when the contribution year changed, the cabin when the tracks did.
+# Otherwise the GIFs already live are carried over.
+name: Redraw profile
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['universe/**', 'assets/**', '.github/workflows/universe.yml']
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: write # only to keep the schedule alive (see the last step)
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: universe
+    env:
+      PAGES: https://manavx.github.io/ManavX
+      SITE: ${{ github.workspace }}/site
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      # Node built-ins only, so these run before installing anything
+      - name: Fetch live data
+        id: data
+        env:
+          GITHUB_TOKEN: ${{ secrets.UNIVERSE_TOKEN || secrets.GITHUB_TOKEN }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: |
+          node scripts/fetch-data.mjs
+          node scripts/fetch-live.mjs
+          node scripts/cabin-signature.mjs > "$RUNNER_TEMP/cabin.json"
+          mkdir -p "$SITE"
+          # carry NAME DATA FILE...: reuse the live NAME.gif/.png if its data file matches the live one
+          carry() {
+            local name=$1 data=$2 file=$3
+            [ "${{ github.event_name }}" = "schedule" ] \
+              && curl -fsS "$PAGES/$file" -o "$RUNNER_TEMP/published-$file" \
+              && cmp -s "$data" "$RUNNER_TEMP/published-$file" \
+              && curl -fsS "$PAGES/$name.gif" -o "$SITE/$name.gif" \
+              && curl -fsS "$PAGES/$name.png" -o "$SITE/$name.png"
+          }
+          if carry year src/data/github.json github.json; then echo "year=false" >> "$GITHUB_OUTPUT"; else echo "year=true" >> "$GITHUB_OUTPUT"; fi
+          if carry cabin "$RUNNER_TEMP/cabin.json" cabin.json; then echo "cabin=false" >> "$GITHUB_OUTPUT"; else echo "cabin=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Install Chrome's libraries and ffmpeg
+        if: steps.data.outputs.year == 'true' || steps.data.outputs.cabin == 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libnss3 libdbus-1-3 libatk1.0-0 libasound2t64 libxrandr2 libxkbcommon-dev \
+            libxfixes3 libxcomposite1 libxdamage1 libgbm-dev libcups2 libcairo2 libpango-1.0-0 libatk-bridge2.0-0 ffmpeg
+
+      - name: Install
+        if: steps.data.outputs.year == 'true' || steps.data.outputs.cabin == 'true'
+        run: npm ci --no-audit --no-fund
+
+      - name: Cache Remotion's browser
+        if: steps.data.outputs.year == 'true' || steps.data.outputs.cabin == 'true'
+        uses: actions/cache@v4
+        with:
+          path: universe/node_modules/.remotion
+          key: remotion-browser-${{ runner.os }}-${{ hashFiles('universe/package-lock.json') }}
+
+      # Both are 2D canvases, so software GL is plenty
+      - name: Render the Year Orbit
+        if: steps.data.outputs.year == 'true'
+        run: node scripts/render.mjs year --out "$SITE" --gl swangle
+
+      - name: Render the cabin
+        if: steps.data.outputs.cabin == 'true'
+        run: node scripts/render.mjs cabin --out "$SITE" --gl swangle
+
+      - name: Draw the panels and assemble the site
+        run: node scripts/assemble.mjs "$SITE"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      # GitHub pauses scheduled workflows after 60 days without repo activity; re-enabling
+      # this workflow once a week counts as activity, without any commits
+      - name: Keep the schedule alive
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(date -u +%u%H)" = "100" ]; then
+            gh api -X PUT "repos/${{ github.repository }}/actions/workflows/universe.yml/enable" || true
+          fi
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
