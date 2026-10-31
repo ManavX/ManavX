@@ -288,7 +288,8 @@ export async function constellations() {
 
 export async function receiver(live: Live, now: Date) {
   const tracks = live.tracks ?? []
-  const recent = live.music === 'recent'
+  // Only claim top tracks when that is what came back; no data reads as the usual recently played
+  const recent = live.music !== 'top'
   const p = new Panel(W, tracks.length ? 96 + tracks.length * 58 + 24 : 180, 80)
   p.frame()
   const v = vancouver(new Date(live.fetchedAt || now))
